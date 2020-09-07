@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6000238444066373559}
+  - component: {fileID: 574164329}
   m_Layer: 0
   m_Name: Rocket Ship
   m_TagString: Untagged
@@ -33,6 +34,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &574164329
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000238444066373558}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6000238444142426540
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,7 +63,7 @@ GameObject:
   - component: {fileID: 6000238444142426539}
   - component: {fileID: 6000238444142426538}
   m_Layer: 0
-  m_Name: Statboard Booster
+  m_Name: Booster1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,7 +249,7 @@ GameObject:
   - component: {fileID: 6000238445465889047}
   - component: {fileID: 6000238445465889046}
   m_Layer: 0
-  m_Name: Statboard Booster (1)
+  m_Name: Booster2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
